@@ -1,6 +1,6 @@
 # INK-A-BOT — Complete System Workflow
 
-### Intelligent Air-Pollution Collection, Particulate Recovery and Experimental Eco-Ink Development
+### Air-Pollution Collection, Particulate Recovery and Experimental Eco-Ink Development
 
 
 **Controller:** Arduino UNO  
