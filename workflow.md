@@ -2,7 +2,6 @@
 
 ### Intelligent Air-Pollution Collection, Particulate Recovery and Experimental Eco-Ink Development
 
-> **Project concept:** Draw polluted air into a controlled filtration unit, capture particulate matter, store the recovered material safely, and investigate whether a suitably characterized carbon-rich fraction can be processed into an ink formulation.
 
 **Controller:** Arduino UNO  
 **Main subsystems:** Air intake · Air-quality monitoring · Filtration · Soot/particle collection · Material processing · Ink mixing and binding · Cartridge storage · Final output
@@ -12,8 +11,6 @@
 ## Project workflow reference image
 
 The following image is the seven-stage workflow supplied for this project. It is the visual reference for the sequence explained in this document.
-
-![INK-A-BOT seven-stage workflow](Images/ink-a-bot-seven-stage-workflow.png)
 
 **Seven stages shown in the reference image**
 
@@ -29,7 +26,7 @@ The following image is the seven-stage workflow supplied for this project. It is
 
 ---
 
-# PAGE 1 — Project purpose, system overview and operating sequence
+# Project purpose, system overview and operating sequence
 
 ## 1.1 Problem addressed
 
@@ -77,9 +74,9 @@ INK-A-BOT should not be described as removing all pollution from a street or as 
 
 ---
 
-# PAGE 2 — Power, Arduino UNO and sensor-control workflow
+#  Power, Arduino UNO and sensor-control workflow
 
-## 2.1 12V rechargeable battery
+## 12V rechargeable battery
 
 **Activity:** Supplies portable electrical power to the robot.
 
@@ -153,7 +150,7 @@ If INK-A-BOT is expected to show a numerical PM2.5 value on its display, include
 
 ---
 
-# PAGE 3 — Air intake, blower, airflow detection and filtration
+#  Air intake, blower, airflow detection and filtration
 
 ## 3.1 Air intake
 
@@ -256,7 +253,7 @@ The blower may be positioned before or after the filter bank depending on the me
 
 ---
 
-# PAGE 4 — Particle collection and air-quality display
+#  Particle collection and air-quality display
 
 ## 4.1 Soot / particulate collection chamber
 
@@ -321,7 +318,7 @@ Do not label a raw gas-sensor voltage or arbitrary sensor value as AQI. AQI requ
 
 ---
 
-# PAGE 5 — Arduino control logic and complete operating cycle
+#  Arduino control logic and complete operating cycle
 
 ## 5.1 Start-up sequence
 
@@ -483,7 +480,7 @@ loop:
 
 ---
 
-# PAGE 6 — Material processing, ink conversion, cartridge storage and final output
+#  Material processing, ink conversion, cartridge storage and final output
 
 > **This is a separate research and processing stage.** The Arduino-controlled air-filtration robot does not automatically make ink. Material characterization, purification and formulation require additional equipment and supervised testing.
 
@@ -593,7 +590,7 @@ The project should not assume that black appearance means the sample is pure car
 
 ---
 
-# PAGE 7 — Integrated hardware list, validation, safety and project limitations
+#  Integrated hardware list, validation, safety and project limitations
 
 ## 7.1 Hardware list based on the current project design
 
