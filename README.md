@@ -1,6 +1,5 @@
-# INK-A-BOT
 # 🤖 INK-A-BOT
-### Turning Air Pollution into a Valuable Resource | From Soot to Ink 🌱
+### Turning Air Pollution into a Valuable Resource 
 
 <p align="center">
   <strong>Turning Pollution into Possibility</strong>
