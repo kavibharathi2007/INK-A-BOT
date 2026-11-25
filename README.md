@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-   <img src="C:\Users\Kavi Bharathi\Downloads\WhatsApp Image 2026-11-26 at 12.10.09 AM.jpeg" />
+   <img src="C:\Users\Kavi Bharathi\Downloads\WhatsApp Image 2026-11-26 at 12.10.09 AM.jpeg"/>
 </p>
 
 ---
