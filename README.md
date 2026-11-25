@@ -1,4 +1,4 @@
-# 🤖 INK-A-BOT
+# INK-A-BOT
 ### Turning Air Pollution into a Valuable Resource 
 
 <p align="center">
@@ -12,7 +12,7 @@
 
 ---
 
-## 🌍 1. Overview
+## 1. Overview
 
 **INK-A-BOT** is an intelligent mobile robot designed to monitor and collect airborne particulate pollutants, particularly carbon-rich soot, from pollution-prone environments.
 
@@ -24,7 +24,7 @@ Our mission is simple:
 
 > **Don't just detect pollution. Collect it, recover valuable material, and give it a second life.**
 
-## 🚨 2. Problem Statement
+## 2. Problem Statement
 
 Air pollution caused by vehicle emissions and industrial activities releases harmful particulate matter into the atmosphere. These pollutants negatively affect environmental quality and human health.
 
@@ -32,7 +32,7 @@ At the same time, carbon-rich soot and other collected particles are often disca
 
 There is a need for an intelligent, cost-effective, and automated solution that can monitor particulate pollution, collect airborne particles, separate suitable carbon-rich material, and explore its conversion into reusable ink pigment.
 
-## 💡 3. Proposed Solution
+## 3. Proposed Solution
 
 INK-A-BOT introduces a mobile robotic system that:
 
@@ -45,7 +45,7 @@ INK-A-BOT introduces a mobile robotic system that:
 - Identifies suitable recovered carbon-rich material for further processing.
 - Explores the conversion of recovered carbon into ink pigment.
 
-## 🎯 4. Project Objectives
+## 4. Project Objectives
 
 1. Develop an intelligent mobile pollution-monitoring robot.
 2. Implement autonomous and Wi-Fi-based manual movement.
@@ -56,7 +56,7 @@ INK-A-BOT introduces a mobile robotic system that:
 7. Explore sustainable ink production from recovered material.
 8. Promote environmental sustainability through waste-to-resource innovation.
 
-## ⚙️ 5. System Architecture
+## 5. System Architecture
 
 ```text
              START
@@ -105,7 +105,7 @@ INK-A-BOT introduces a mobile robotic system that:
                    END
 ```
 
-## 🔩 6. Hardware Components
+## 6. Hardware Components
 
 | Component | Purpose |
 |---|---|
@@ -124,7 +124,7 @@ INK-A-BOT introduces a mobile robotic system that:
 
 *Final component selection and electrical connections will be documented during hardware integration.*
 
-## 💻 7. Software & Technologies
+##  7. Software & Technologies
 
 - **Embedded Programming:** Arduino C/C++
 - **Microcontroller Platform:** Arduino Nano
@@ -135,7 +135,7 @@ INK-A-BOT introduces a mobile robotic system that:
 - **Version Control:** Git & GitHub
 - **Simulation:** Suitable circuit and logic simulation tools
 
-## 🔄 8. Working Principle – Step by Step
+## 8. Working Principle – Step by Step
 
 ### Step 1: System Initialization
 The robot powers on and initializes the controller, sensors, motors, and wireless communication system.
@@ -164,18 +164,18 @@ The recovered material undergoes appropriate purification, characterization, and
 ### Step 9: Final Demonstration
 The project demonstrates pollution monitoring, particle collection, filtration, and the potential transformation of recovered carbon-rich material into ink.
 
-## 🧠 9. Key Features
+## 9. Key Features
 
-- 🤖 Intelligent mobile robotic platform
-- 🌫️ Real-time particulate pollution monitoring
-- ⚡ Automatic pollution-triggered collection
-- 🌀 Suction-based particle collection
-- 🧪 Multi-stage filtration system
-- ♻️ Carbon-rich material recovery
-- 🖋️ Experimental waste-to-ink conversion
-- 🌱 Environment-focused innovation
+-  Intelligent mobile robotic platform
+-  Real-time particulate pollution monitoring
+-  Automatic pollution-triggered collection
+-  Suction-based particle collection
+-  Multi-stage filtration system
+-  Carbon-rich material recovery
+-  Experimental waste-to-ink conversion
+-  Environment-focused innovation
 
-## 🔬 10. Innovation & Uniqueness
+##  10. Innovation & Uniqueness
 
 | Conventional Approach | INK-A-BOT Approach |
 |---|---|
@@ -187,7 +187,7 @@ The project demonstrates pollution monitoring, particle collection, filtration, 
 
 **Our innovation:** Combining mobile pollution monitoring, automated particle collection, and potential carbon-based resource recovery in a single robotic platform.
 
-## 🛠️ 11. Development Roadmap
+##  11. Development Roadmap
 
 - [x] Project concept and problem identification
 - [x] Initial system planning
@@ -203,7 +203,7 @@ The project demonstrates pollution monitoring, particle collection, filtration, 
 - [ ] Ink formulation and testing
 - [ ] Complete system demonstration
 
-## 📁 12. Repository Structure
+##  12. Repository Structure
 
 ```text
 INK-A-BOT/
@@ -234,7 +234,7 @@ INK-A-BOT/
 └── LICENSE
 ```
 
-## 🌱 13. Environmental Impact
+##  13. Environmental Impact
 
 INK-A-BOT aims to contribute to environmental sustainability by:
 
@@ -246,7 +246,7 @@ INK-A-BOT aims to contribute to environmental sustainability by:
 
 **Important:** This prototype is intended for controlled testing. Filtration does not eliminate all pollution, and collected soot is not automatically safe or suitable for ink production. Material characterization, purification, and safety validation are essential before any reuse.
 
-## 🚀 14. Future Enhancements
+## 14. Future Enhancements
 
 - GPS-enabled pollution mapping.
 - IoT-based live monitoring dashboard.
@@ -257,7 +257,7 @@ INK-A-BOT aims to contribute to environmental sustainability by:
 - Automated collection chamber monitoring.
 - Optimized carbon recovery and ink formulation.
 
-## 👥 15. Project Team
+##  15. Project Team
 
 **Project Name:** INK-A-BOT
 
@@ -271,7 +271,7 @@ INK-A-BOT aims to contribute to environmental sustainability by:
 
 ---
 
-## ❤️ 16. Our Vision
+##  16. Our Vision
 
 We believe technology should not only solve existing problems but also create opportunities from them.
 
