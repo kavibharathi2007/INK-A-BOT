@@ -435,13 +435,6 @@ INK-A-BOT/
     └── obstacle_avoidance.ino
 ```
 
-Suggested link from `README.md`:
 
-```markdown
-## Project Documentation
 
-- [Project Architecture](project-architecture.md)
-- [Research Background](research.md)
-- [Filtration and Purification Workflow](Documentation/filtration_and_purification_workflow.md)
-- [Complete Working Process](workflow.md)
-```
+
