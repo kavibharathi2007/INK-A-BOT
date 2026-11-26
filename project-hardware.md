@@ -30,6 +30,8 @@ Working Process:
 - Receives air after particulate filtration.
 - Adsorbs certain gaseous pollutants and odors onto its carbon surface.
 - Helps improve the quality of outgoing air.
+
+  
 **4. PM2.5 Filtration System**
   
 Activity: Collection of fine airborne particulate matter.
