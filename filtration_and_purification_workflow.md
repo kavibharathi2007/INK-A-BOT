@@ -445,14 +445,6 @@ INK-A-BOT's strongest and most defensible technical contribution is the integrat
 
 > **FROM POLLUTION TO POSSIBILITY — FROM SOOT TO INK.**
 
----
-
-## Repository placement
-
-Save this file as:
-
-`Documentation/filtration_and_purification_workflow.md`
-
 Suggested repository structure:
 
 ```text
@@ -464,11 +456,3 @@ INK-A-BOT/
 └── Images/
     └── filtration_and_purification_flow.png
 ```
-
-Add the diagram in this document using:
-
-```markdown
-![INK-A-BOT filtration and purification flow](../Images/filtration_and_purification_flow.png)
-```
-
-**Document status:** Proposed engineering workflow. Replace assumptions with selected component datasheets, circuit details, measured airflow, filter test results and laboratory findings as the prototype develops.
