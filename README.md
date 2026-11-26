@@ -109,7 +109,7 @@ INK-A-BOT introduces a mobile robotic system that:
 
 | Component | Purpose |
 |---|---|
-| Arduino Nano V3 | Main control unit |
+| Arduino Uno | Main control unit |
 | ATmega328P | Microcontroller |
 | 12V DC 300 RPM Motors | Robot movement |
 | L298N Motor Driver | Motor speed and direction control |
