@@ -1,0 +1,413 @@
+#include <Servo.h>
+#include <NewPing.h>
+
+// =================================================
+// L298N MOTOR DRIVER PINS
+// =================================================
+
+const int enablePinA = 5;
+
+const int LeftMotorForward  = 10;
+const int LeftMotorBackward = 11;
+
+const int RightMotorForward  = 9;
+const int RightMotorBackward = 8;
+
+const int enablePinB = 6;
+
+
+// =================================================
+// ULTRASONIC SENSOR
+// =================================================
+
+#define trig_pin A5
+#define echo_pin A4
+
+#define maximum_distance 200
+
+
+// =================================================
+// SERVO
+// =================================================
+
+#define SERVO_PIN 3
+#define SERVO_CENTER 115
+#define SERVO_RIGHT 50
+#define SERVO_LEFT 170
+
+
+// =================================================
+// SPEED SETTINGS
+// 0 - 255
+// =================================================
+
+const int FORWARD_SPEED  = 220;
+const int BACKWARD_SPEED = 180;
+const int TURN_SPEED     = 230;
+
+
+// =================================================
+// TURNING TIME
+// Increase if robot doesn't turn enough
+// =================================================
+
+const int TURN_TIME = 300;
+
+
+// =================================================
+// OBSTACLE DISTANCE
+// =================================================
+
+const int OBSTACLE_DISTANCE = 40;
+
+
+// =================================================
+// VARIABLES
+// =================================================
+
+boolean goesForward = false;
+
+int distance = 100;
+
+NewPing sonar(trig_pin, echo_pin, maximum_distance);
+
+Servo servo_motor;
+
+
+// =================================================
+// SETUP
+// =================================================
+
+void setup() {
+
+  pinMode(enablePinA, OUTPUT);
+  pinMode(enablePinB, OUTPUT);
+
+  pinMode(LeftMotorForward, OUTPUT);
+  pinMode(LeftMotorBackward, OUTPUT);
+
+  pinMode(RightMotorForward, OUTPUT);
+  pinMode(RightMotorBackward, OUTPUT);
+
+
+  // Start with motors stopped
+  moveStop();
+
+
+  // Attach servo
+  servo_motor.attach(SERVO_PIN);
+
+  // Center ultrasonic sensor
+  servo_motor.write(SERVO_CENTER);
+
+  delay(2000);
+
+
+  // Take initial distance readings
+  distance = readPing();
+
+  delay(100);
+
+  distance = readPing();
+
+  delay(100);
+
+  distance = readPing();
+
+  delay(100);
+
+  distance = readPing();
+
+  delay(100);
+}
+
+
+// =================================================
+// MAIN LOOP
+// =================================================
+
+void loop() {
+
+  int distanceRight = 0;
+  int distanceLeft = 0;
+
+  delay(50);
+
+
+  // =================================================
+  // OBSTACLE DETECTED
+  // =================================================
+
+  if (distance <= OBSTACLE_DISTANCE) {
+
+    // Stop
+    moveStop();
+
+    delay(100);
+
+
+    // Small reverse movement
+    moveBackward();
+
+    delay(200);
+
+
+    // Stop again
+    moveStop();
+
+    delay(300);
+
+
+    // =================================================
+    // CHECK RIGHT
+    // =================================================
+
+    distanceRight = lookRight();
+
+    delay(300);
+
+
+    // =================================================
+    // CHECK LEFT
+    // =================================================
+
+    distanceLeft = lookLeft();
+
+    delay(300);
+
+
+    // =================================================
+    // CHOOSE THE CLEARER SIDE
+    // =================================================
+
+    if (distanceRight >= distanceLeft) {
+
+      turnRight();
+
+    }
+    else {
+
+      turnLeft();
+
+    }
+
+
+    // Stop after turning
+    moveStop();
+
+    delay(100);
+  }
+
+
+  // =================================================
+  // NO OBSTACLE
+  // =================================================
+
+  else {
+
+    moveForward();
+
+  }
+
+
+  // Update front distance
+  distance = readPing();
+}
+
+
+// =================================================
+// LOOK RIGHT
+// =================================================
+
+int lookRight() {
+
+  servo_motor.write(SERVO_RIGHT);
+
+  delay(500);
+
+  int rightDistance = readPing();
+
+  delay(100);
+
+  servo_motor.write(SERVO_CENTER);
+
+  delay(100);
+
+  return rightDistance;
+}
+
+
+// =================================================
+// LOOK LEFT
+// =================================================
+
+int lookLeft() {
+
+  servo_motor.write(SERVO_LEFT);
+
+  delay(500);
+
+  int leftDistance = readPing();
+
+  delay(100);
+
+  servo_motor.write(SERVO_CENTER);
+
+  delay(100);
+
+  return leftDistance;
+}
+
+
+// =================================================
+// READ ULTRASONIC DISTANCE
+// =================================================
+
+int readPing() {
+
+  delay(70);
+
+  int cm = sonar.ping_cm();
+
+
+  // No echo
+  if (cm == 0) {
+
+    cm = maximum_distance;
+
+  }
+
+  return cm;
+}
+
+
+// =================================================
+// STOP MOTORS
+// =================================================
+
+void moveStop() {
+
+  digitalWrite(LeftMotorForward, LOW);
+  digitalWrite(LeftMotorBackward, LOW);
+
+  digitalWrite(RightMotorForward, LOW);
+  digitalWrite(RightMotorBackward, LOW);
+
+
+  // Remove motor power
+  analogWrite(enablePinA, 0);
+  analogWrite(enablePinB, 0);
+
+
+  goesForward = false;
+}
+
+
+// =================================================
+// MOVE FORWARD
+// =================================================
+
+void moveForward() {
+
+  goesForward = true;
+
+
+  // Left motor forward
+  digitalWrite(LeftMotorForward, HIGH);
+  digitalWrite(LeftMotorBackward, LOW);
+
+
+  // Right motor forward
+  digitalWrite(RightMotorForward, HIGH);
+  digitalWrite(RightMotorBackward, LOW);
+
+
+  // HIGH MOTOR POWER
+  analogWrite(enablePinA, FORWARD_SPEED);
+  analogWrite(enablePinB, FORWARD_SPEED);
+}
+
+
+// =================================================
+// MOVE BACKWARD
+// =================================================
+
+void moveBackward() {
+
+  goesForward = false;
+
+
+  // Left motor backward
+  digitalWrite(LeftMotorForward, LOW);
+  digitalWrite(LeftMotorBackward, HIGH);
+
+
+  // Right motor backward
+  digitalWrite(RightMotorForward, LOW);
+  digitalWrite(RightMotorBackward, HIGH);
+
+
+  // Reverse power
+  analogWrite(enablePinA, BACKWARD_SPEED);
+  analogWrite(enablePinB, BACKWARD_SPEED);
+}
+
+
+// =================================================
+// TURN RIGHT
+// =================================================
+
+void turnRight() {
+
+  // Left motor FORWARD
+  digitalWrite(LeftMotorForward, HIGH);
+  digitalWrite(LeftMotorBackward, LOW);
+
+
+  // Right motor BACKWARD
+  digitalWrite(RightMotorForward, LOW);
+  digitalWrite(RightMotorBackward, HIGH);
+
+
+  // HIGH TURNING POWER
+  analogWrite(enablePinA, TURN_SPEED);
+  analogWrite(enablePinB, TURN_SPEED);
+
+
+  // Turn
+  delay(TURN_TIME);
+
+
+  // Stop
+  moveStop();
+}
+
+
+// =================================================
+// TURN LEFT
+// =================================================
+
+void turnLeft() {
+
+  // Left motor BACKWARD
+  digitalWrite(LeftMotorForward, LOW);
+  digitalWrite(LeftMotorBackward, HIGH);
+
+
+  // Right motor FORWARD
+  digitalWrite(RightMotorForward, HIGH);
+  digitalWrite(RightMotorBackward, LOW);
+
+
+  // HIGH TURNING POWER
+  analogWrite(enablePinA, TURN_SPEED);
+  analogWrite(enablePinB, TURN_SPEED);
+
+
+  // Turn
+  delay(TURN_TIME);
+
+
+  // Stop
+  moveStop();
+}
