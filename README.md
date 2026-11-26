@@ -6,9 +6,7 @@
   <strong>POLLUTION IN, INK OUT</strong>
 </p>
 
-<p align="center">
-   <img src="C:\Users\Kavi Bharathi\Downloads\WhatsApp Image 2026-11-26 at 12.10.09 AM.jpeg"/>
-</p>
+
 <p align="center">
   <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB_3l0kDg-L8hCP5kLJLXGdABTGHo_MoaJnwmrBbwolWjHVyf4-Ew8cDk&s=10">
   </a>
