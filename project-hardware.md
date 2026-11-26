@@ -1,4 +1,6 @@
 **1. Arduino UNO**
+
+
 Activity: Main control unit of INK-A-BOT.
 
 Working Process:
@@ -9,6 +11,8 @@ Working Process:
 - Coordinates the operation of the connected components.
 - 
 **2. HEPA Filter**
+
+  
 Activity: Fine particulate matter filtration.
 
 Working Process:
@@ -18,13 +22,16 @@ Working Process:
 - Allows filtered air to pass to the next filtration stage.
   
 **3. Activated Carbon Filter**
+
+
 Activity: Gas and odor treatment.
 
 Working Process:
 - Receives air after particulate filtration.
 - Adsorbs certain gaseous pollutants and odors onto its carbon surface.
 - Helps improve the quality of outgoing air.
-4. PM2.5 Filtration System
+**4. PM2.5 Filtration System**
+  
 Activity: Collection of fine airborne particulate matter.
 
 Working Process:
@@ -33,6 +40,8 @@ Working Process:
 - Retains the collected particles for controlled recovery.
   
 **5. Gas Sensor**
+
+
 Activity: Detection of selected gaseous pollutants.
 
 Working Process:
@@ -42,6 +51,8 @@ Working Process:
 - Helps identify changes in environmental gas conditions
 
 **6. LED Display**
+
+
 Activity: Real-time system status indication.
 
 Working Process:
@@ -51,6 +62,8 @@ Working Process:
 - Provides visual warnings for abnormal airflow or system conditions.
   
 **7. 12V Rechargeable Battery**
+
+
 Activity: Main power supply.
 
 Working Process:
@@ -60,6 +73,8 @@ Working Process:
 - Supports portable field operation.
   
 **8. Airflow Detection Sensor**
+
+
 Activity: Monitoring air movement through the filtration system.
 
 Working Process:
@@ -69,6 +84,8 @@ Working Process:
 - Triggers a warning or collection shutdown when airflow becomes abnormal.
   
 **9. Ultrasonic Sensor**
+
+
 Activity: Obstacle detection and navigation assistance.
 
 Working Process:
@@ -79,6 +96,8 @@ Working Process:
 - Supports stopping or changing the robot's direction when obstacles are detected.
   
 **10. Power Switches**
+
+
 Activity: Electrical power control.
 
 Working Process:
