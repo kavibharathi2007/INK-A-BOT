@@ -2,9 +2,9 @@
 ### Turning Air Pollution into a Valuable Resource 
 
 <p align="center">
-  <strong>Turning Pollution into Possibility</strong>
+  <strong>POLLUTION IN,INK OUT</strong>
   
-   <strong>POLLUTION IN, INK OUT</strong>
+   <strong>Turning Pollution into Possibility</strong>
 </p>
 
 
