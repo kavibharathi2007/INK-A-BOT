@@ -17,7 +17,7 @@
 
 
 ---------------AUTONOMOUS NAVIGATION-----------------------
-![Watch INK-A-BOT Autonomous Navigation](./INKABOT.gif.mp4)
+![INKABOT](./INKABOT.gif.mp4)
 
 ``
 
