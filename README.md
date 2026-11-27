@@ -12,7 +12,9 @@
   </a>
 </p>
 
-# INK-A-BOT
+![INK-A-BOT](./PRO_INFRA.jpeg)
+
+
 ![INK-A-BOT](./PROJECTS_MODEL.jpeg)
 
 ---
