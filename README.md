@@ -12,6 +12,9 @@
   </a>
 </p>
 
+# INK-A-BOT
+![INK-A-BOT](./"C:\Users\Kavi Bharathi\Pictures\PROJECTS MODEL.jpeg")
+
 ---
 
 ## 1. Overview
