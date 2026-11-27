@@ -16,8 +16,9 @@
 ![INK-A-BOT](./PRO-INFRA.png)
 
 
----------------AUTONOMOUS NAVIGATION------------------------
+---------------AUTONOMOUS NAVIGATION-----------------------
 ![INK-A-BOT](./INKABOT.gif)
+
 ``
 
 ## 1. Overview
