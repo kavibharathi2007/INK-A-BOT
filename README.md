@@ -13,7 +13,7 @@
 </p>
 
 
-# INFRA
+
 ![INK-A-BOT](./PRO-INFRA.png)
 
 ---
