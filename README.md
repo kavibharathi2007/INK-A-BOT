@@ -14,7 +14,7 @@
 
 
 # INFRA
-![INK-A-BOT](./PRO_INFRA.jpeg)
+![INK-A-BOT](./PRO-INFRA.jpeg)
 
 ---
 
