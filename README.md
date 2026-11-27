@@ -13,7 +13,7 @@
 </p>
 
 # INK-A-BOT
-![INK-A-BOT](./Users\Kavi Bharathi\Pictures\PROJECTS MODEL.jpeg")
+![INK-A-BOT](./PROJECTS%20MODEL.jpeg")
 
 ---
 
