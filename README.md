@@ -282,15 +282,9 @@ We believe technology should not only solve existing problems but also create op
 
 INK-A-BOT represents an effort to transform environmental challenges into opportunities through robotics, automation, and sustainable engineering.
 
-<p align="center">
-  <strong>FROM POLLUTION TO POSSIBILITY.</strong>
-  <br/>
-  <strong>FROM SOOT TO INK. 🌍🖋️</strong>
-</p>
-
 ---
 
-⭐ If you find this project interesting, consider starring this repository and following its development!
+ If you find this project interesting, consider **starring** this repository and **following its development**!
 
 
- DESIGN AND DEVELOPMENT **INK A BOT TEAM** BY ROBOTICS CLUB OF SRI RAMAKRISHNA INSTITUTE TECHNOLOGY
+----------------- DESIGN AND DEVELOPMENT **TEAM---INK A BOT** BY **ROBOTICS** CLUB OF **SRI RAMAKRISHNA INSTITUTE TECHNOLOGY**------------------------
