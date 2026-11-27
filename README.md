@@ -4,7 +4,7 @@
 <p align="center">
   <strong>Turning Pollution into Possibility</strong>
   
-  <strong>POLLUTION IN, INK OUT</strong>
+   <strong>POLLUTION IN, INK OUT</strong>
 </p>
 
 
