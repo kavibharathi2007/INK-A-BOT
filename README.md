@@ -3,8 +3,6 @@
 
 <p align="center">
   <strong>POLLUTION IN,INK OUT</strong>
-  
-   <strong>Turning Pollution into Possibility</strong>
 </p>
 
 
