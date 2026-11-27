@@ -17,7 +17,7 @@
 
 
 ---------------AUTONOMOUS NAVIGATION-----------------------
-![INK-A-BOT](./INKABOT.gif)
+![INK-A-BOT](./INKABOT.gif.mp4)
 
 ``
 
