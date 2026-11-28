@@ -198,8 +198,8 @@ The project demonstrates pollution monitoring, particle collection, filtration, 
 
 ##  11. Development Roadmap
 
-- [x] Project concept and problem identification
-- [x] Initial system planning
+- [ ] Project concept and problem identification
+- [ ] Initial system planning
 - [ ] GitHub repository development
 - [ ] Embedded software development
 - [ ] Sensor integration
