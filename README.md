@@ -15,7 +15,7 @@
 
 ![INK-A-BOT](./PRO-INFRA.png)
 
-
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ---------------AUTONOMOUS NAVIGATION-----------------------
 ![INK-A-BOT](./bot.gif.mp4)
 
