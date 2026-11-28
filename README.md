@@ -1,4 +1,4 @@
-# INK-A-BOT    [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![License: MIT](https://img.shields.io/badge/Obstabcle-Avoiding-red.svg)] [![License: MIT](https://img.shields.io/badge/Auto-movable-blue.svg)](https://opensource.org/licenses/MIT)
+# INK-A-BOT    [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![License: MIT](https://img.shields.io/badge/Obstabcle-Avoiding-red.svg)](https://opensource.org/licenses/MIT) [![License: MIT](https://img.shields.io/badge/Auto-movable-blue.svg)](https://opensource.org/licenses/MIT)
 
 ### Turning Air Pollution into a Valuable Resource 
 
