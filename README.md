@@ -291,4 +291,4 @@ INK-A-BOT represents an effort to transform environmental challenges into opport
  If you find this project interesting, consider **starring** this repository and **following its development**!
 
 
------------ DESIGN AND DEVELOPMENT **TEAM---INK A BOT** BY **ROBOTICS** CLUB OF **SRI RAMAKRISHNA INSTITUTE TECHNOLOGY**--------
+----------- DESIGN AND DEVELOPMENT **[TEAM---INK A BOT]** BY **[ROBOTICS]** CLUB OF **[SRI RAMAKRISHNA INSTITUTE TECHNOLOGY]**--------
